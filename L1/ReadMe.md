@@ -48,7 +48,7 @@ product_categories, orders, order_items, reviews, payments
 
 ## 3. ER-диаграмма
 
-/Users/annaovcinnikova/MOBD/MOBD/L1/Screenshots/Снимок экрана 2026-09-28 в 16.27.03.png
+![1](<Снимок экрана 2026-09-28 в 16.27.03.png>)
 
 ---
 
@@ -87,10 +87,11 @@ Products (product_id, product_name, price, shop_id, category_id) (связь M:N
 
 ## 6. Реализация схемы в PostgreSQL
 
-/Users/annaovcinnikova/MOBD/MOBD/L1/Screenshots/Снимок экрана 2026-09-28 в 16.42.23.png
+![2](<Снимок экрана 2026-09-28 в 16.42.23.png>)
 
 
-/Users/annaovcinnikova/MOBD/MOBD/L1/Screenshots/Снимок экрана 2026-09-28 в 16.43.01.png
+![3](<Снимок экрана 2026-09-28 в 16.43.01.png>)
+
 ---
 
 ## 7. Словарь данных
@@ -215,12 +216,13 @@ UNION ALL SELECT 'payments', COUNT(*) FROM payments;
 
 ### 8.2 Проверка ограничений
 
-/Users/annaovcinnikova/MOBD/MOBD/L1/Screenshots/Снимок экрана 2026-09-28 в 16.44.44.png
+![4](<Снимок экрана 2026-09-28 в 16.44.44.png>)
 
 
-/Users/annaovcinnikova/MOBD/MOBD/L1/Screenshots/Снимок экрана 2026-09-28 в 16.44.55.png
+![5](<Снимок экрана 2026-09-28 в 16.44.55.png>)
 
-/Users/annaovcinnikova/MOBD/MOBD/L1/Screenshots/Снимок экрана 2026-09-28 в 16.45.09.png
+![6](<Снимок экрана 2026-09-28 в 16.45.09.png>)
+
 ---
 
 ## 9. Принятые проектные решения
